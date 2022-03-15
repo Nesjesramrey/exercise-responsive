@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+    margin: 0 auto;
+    background-color: #4A25AA;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box1{
+    font-size: 32px;
+}
+.box2{
+    font-size: 28px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+/*
+    Media Query para tablet
+*/
+
+@media(min-width: 768px) and (max-width: 1240px){
+    body{background-color: azure;
+    }
+    
+    }
+   
+
+
+@media (min-width: 320px) and (max-width:980px) {
+    body{background-color: antiquewhite;
+    }
+   
+    }
+    
+   
